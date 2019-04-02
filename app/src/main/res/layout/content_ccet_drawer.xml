@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ccetDrawer"
+    android:background="@drawable/ccet"
+    tools:showIn="@layout/app_bar_ccet_drawer">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/b0"
+            android:src="@drawable/campus"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:elevation="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/text0"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:text="CLICK: To Know About Your College."/>
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:elevation="2dp"
+            android:background="#fff"
+            android:src="@drawable/ic_filter_tilt_shift_black_24dp"
+            android:layout_marginHorizontal="10dp"
+            android:id="@+id/b7" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/taptext"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="140dp"
+            android:text="Tap :To see the RESULT."/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/b1"
+        android:src="@drawable/ic_import_contacts_black_24dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginHorizontal="10dp"
+        android:elevation="2dp"
+        android:background="@drawable/myrect"
+        android:icon="@mipmap/ic_launcher" />
+
+            <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="Question Paper"
+                android:src="@drawable/ic_library_books_black_24dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="60dp"
+        android:elevation="2dp"
+        android:background="@drawable/myrect"
+        android:id="@+id/b2"/>
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_store_mall_directory_black_24dp"
+        android:tag="Workshop"
+        android:layout_marginTop="60dp"
+        android:elevation="2dp"
+        android:background="@drawable/myrect"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/b3"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/b4"
+            android:text="Gallery"
+            android:src="@drawable/ic_menu_gallery"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="30dp"
+            android:elevation="2dp"
+            android:background="@drawable/myrect"/>
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="Faculty"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_supervisor_account_black_24dp"
+            android:elevation="2dp"
+            android:background="@drawable/myrect"
+            android:id="@+id/b5"/>
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="Committees"
+            android:layout_marginHorizontal="10dp"
+            android:src="@drawable/ic_local_activity_black_24dp"
+            android:layout_marginTop="30dp"
+            android:elevation="2dp"
+            android:background="@drawable/myrect"
+            android:id="@+id/b6"/>
+
+
+      </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

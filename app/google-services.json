@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "25980951382",
+    "firebase_url": "https://ccetofficial-98aad.firebaseio.com",
+    "project_id": "ccetofficial-98aad",
+    "storage_bucket": "ccetofficial-98aad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25980951382:android:248d9dd7ebbce654",
+        "android_client_info": {
+          "package_name": "com.example.ccetofficial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25980951382-hih6u70avioj5r51s18lfkcobtc5dsv4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ccetofficial",
+            "certificate_hash": "6e98ba9e5fabb8b73aaf0e2b66476e3737e79736"
+          }
+        },
+        {
+          "client_id": "25980951382-3qniq0vgnbgj1a6qapub59r75i0fnop6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqlJB1AjV4ymUxdhkABx3I3IwQ-QFPUL4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25980951382-3qniq0vgnbgj1a6qapub59r75i0fnop6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

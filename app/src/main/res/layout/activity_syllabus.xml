@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffd"
+    android:layout_height="match_parent"
+    tools:context=".Syllabus">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imgb2"
+        android:layout_alignTop="@+id/textView2"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="BE(ECE) 1st year 2018-19" />
+
+    <ImageButton
+        android:id="@+id/imgb1"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="21dp"
+        android:src="@drawable/ic_picture_as_pdf_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/imgb2"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imgb1"
+        android:layout_marginEnd="31dp"
+        android:src="@drawable/ic_picture_as_pdf_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="142dp"
+        android:layout_height="32dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imgb1"
+        android:layout_marginTop="133dp"
+        android:text="BE ECE 2018-19" />
+
+</RelativeLayout>

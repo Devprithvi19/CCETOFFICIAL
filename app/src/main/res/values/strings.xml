@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CCET OFFICIAL</string>
+    <string name="title_activity_ccet_drawer">ccetDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="year_Syllabus">2018-2019 SYLLABUS</string>
+    <string name="title_activity_aboutccet">Aboutccet</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Branch">
+        <item>Electronics And Communication Engineering</item>
+        <item>Computer Science Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Civil Engineering</item>
+
+    </string-array>
+    <string-array name="Semester">
+        <item>Semester 1</item>
+        <item>Semester 2</item>
+        <item>Semester 3</item>
+        <item>Semester 5</item>
+        <item>Semester 6</item>
+        <item>Semester 7</item>
+        <item>Semester 8</item>
+
+    </string-array>
+
+
+</resources>
